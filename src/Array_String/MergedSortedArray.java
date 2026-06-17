@@ -21,7 +21,6 @@ public class MergedSortedArray {
     static int[] arr2 = {2, 4, 6, 8};
     public static void main(String[] args) {
         merge(nums1, 4, arr2, 4);
-
         System.out.print("Merged Sorted Array: ");
         for (int num : nums1) {
             System.out.print(num + ", ");
